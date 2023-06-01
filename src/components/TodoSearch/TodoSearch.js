@@ -1,12 +1,10 @@
-import './TodoSearch.css'
-function TodoSearch(){
-    return(
-      <div search-container>
-        <input placeholder="Ingresar Tarea" />
+import "./TodoSearch.css";
+function TodoSearch() {
+  return (
+    <div className="search-container">
+      <input type="search" className="search-input" placeholder="Buscar" />
+    </div>
+  );
+}
 
-      </div>
-
-    );
-  }
-
-export {TodoSearch};
+export { TodoSearch };
