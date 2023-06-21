@@ -1,29 +1,22 @@
-.createTodo-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 2em;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  padding: 0 1em;
-  background-color: transparent;
-}
-
-.createTodo-container button {
-  width: 90%;
-  max-width: 400px;
-  height: 4.4rem;
-  font-size: 1.5rem;
-  border: none;
-  background-color: rgba(26, 194, 40, 1) ;
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
   cursor: pointer;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #92E3A9;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
 
-.createTodo-container button:hover {
-  background-color: rgba(26, 194, 40, 0.727);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+.button:hover {background-color: #69ef8f}
+
+.button:active {
+  background-color: #69ef8f;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

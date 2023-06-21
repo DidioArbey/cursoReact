@@ -1,8 +1,8 @@
 import './CreateTodoBotton.css'
 function CreateTodoBotton(){
     return(
-        <div  className="createTodo-container">
-            <button>Crear Tarea</button>
+        <div>
+            <button className='button' >Crear</button>
         </div>
     );
 };

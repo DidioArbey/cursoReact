@@ -1,6 +1,12 @@
 
 body {
-    background: url("fondoo.jpg") no-repeat center fixed;
+    background: url("fondosss.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
